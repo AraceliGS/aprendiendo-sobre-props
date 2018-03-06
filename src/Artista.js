@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Artista.css';
+import PropTypes from 'prop-types';
 
 class Artista extends Component {
   render() {
@@ -26,6 +27,19 @@ class Artista extends Component {
       </div>
     )
   }
+}
+
+Artista.defaultProps = {
+  name: 'Araceli',
+  img: 'katy_perry.jpg',
+  bio: 'Soy Araceli. Mucho gusto!',
+  canciones: ['Roar', 'Imagine', 'Boulevard Broken']
+}
+Artista.propTypes = {
+  name: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
+  bio: PropTypes.string.isRequired,
+  canciones: PropTypes.array.isRequired
 }
 
 export default Artista;

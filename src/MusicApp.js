@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './MusicApp.css';
 import Artista from './Artista';
 
+
 class MusicApp extends Component {
   render() {
     return (
@@ -16,5 +17,7 @@ class MusicApp extends Component {
     );
   }
 }
+
+
 
 export default MusicApp;
