@@ -11,16 +11,18 @@ class Artista extends Component {
       return <li key={index}>{cancion}</li>
     });
     return(
-      <div>
-        <img src={img} alt={name}/>
-        <h3>
-          {name}
-        </h3>
-        <p>Biografía</p>
-        <ul>
-          {canciones}
-        </ul>
-        <p>{bio}</p>
+      <div className="music-card">
+        <div className="music-card-image">
+         <img src={img} alt={name}/>
+        </div>
+        <div className="music-card-content">
+          <h3 className="music-title-artist">{name}</h3>
+          <p>Biografía</p>
+          <ul>
+           {canciones}
+          </ul>
+          <p>{bio}</p>
+        </div>
       </div>
     )
   }

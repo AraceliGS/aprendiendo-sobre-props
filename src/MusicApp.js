@@ -8,7 +8,7 @@ class MusicApp extends Component {
       <div>
        <Artista
        name='Shakira'
-       bio='Shakira Isabel Mebarak Ripoll es una cantautora, productora y artista colombiana.'
+       bio='Shakira Isabel Mebarak Ripoll​​ es una cantautora, productora discográfica, bailarina, modelo, empresaria, actriz, embajadora de buena voluntad de la UNICEF y filántropa colombiana.'
        img='shakira.jpg'
        canciones= {['Ojos Así', 'Inevitable', 'Tú']}
        />
