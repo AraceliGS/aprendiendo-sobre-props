@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Artista.css';
-import Shakira from './shakira.jpg'
 
 class Artista extends Component {
   render() {
@@ -13,7 +12,7 @@ class Artista extends Component {
     });
     return(
       <div>
-        <img src={Shakira} alt={name}/>
+        <img src={img} alt={name}/>
         <h3>
           {name}
         </h3>
